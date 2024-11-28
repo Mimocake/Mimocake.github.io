@@ -1,5 +1,6 @@
 body{
     background-image:url('главная страница фон.jpg');
+    background-attachment: fixed;
 }
 #VORPIS{
     font-size: 120px;
@@ -17,7 +18,7 @@ body{
     font-weight: 550;
     background-color: rgba(127,127,127,0.6);
 }
-#bunin{
+.authors{
     margin: 40px;
     background-image:url("литературный фон.jpg");
     border-width: 5px;
@@ -28,10 +29,11 @@ body{
     font-size: 60px;
     font-family: "Great Vibes", cursive;
     font-weight: 550;
+    color:black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding:30px;
-    padding-top:100px;
-    padding-bottom: 100px;
+    padding-top:60px;
+    padding-bottom: 60px;
 }
