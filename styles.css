@@ -1,6 +1,7 @@
 body{
     background-image:url('главная страница фон.jpg');
     background-attachment: fixed;
+    background-size: cover;
 }
 #VORPIS{
     font-size: 120px;
@@ -17,6 +18,7 @@ body{
     font-family: "Bitter", cursive;
     font-weight: 550;
     background-color: rgba(127,127,127,0.6);
+    text-align:justify;
 }
 .authors{
     margin: 40px;
