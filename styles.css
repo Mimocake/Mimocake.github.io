@@ -21,8 +21,10 @@ body{
     text-align:justify;
 }
 .authors{
+    align-items: center;
     margin: 40px;
     background-image:url("литературный фон.jpg");
+    background-size: cover;
     border-width: 5px;
     border-style: solid;
     border-color: rgb(100, 100, 100);
@@ -38,4 +40,16 @@ body{
     padding:30px;
     padding-top:60px;
     padding-bottom: 60px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.text {
+    text-align: center;
 }
